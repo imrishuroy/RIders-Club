@@ -1,9 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.riders_club">
+    package="com.rishu.riders_club">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
    <application
         android:label="riders_club"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data 
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBTtR33f5AF8dwtcNmmmj1LXitclssRepM"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

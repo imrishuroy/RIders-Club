@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1091149201761",
+    "project_id": "riders-club-2ee2d",
+    "storage_bucket": "riders-club-2ee2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091149201761:android:063c16e36d248d3c884520",
+        "android_client_info": {
+          "package_name": "com.rishu.riders_club"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091149201761-jodrk10j4sv497ggk8pauh32pk4lna93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rishu.riders_club",
+            "certificate_hash": "c1e3ed2d56469c9d9820a1c991e84ee2c96966bb"
+          }
+        },
+        {
+          "client_id": "1091149201761-e2n9kbdmpm2egs3aihhvtiqi56mr95oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzcEHtnJjui-rlN5QQ8n5SoltsVV7R5U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091149201761-e2n9kbdmpm2egs3aihhvtiqi56mr95oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

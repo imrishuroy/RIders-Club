@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
+import 'screens/register-club/register_club_screen.dart';
+
 void main() => runApp(const App());
 
 class App extends StatelessWidget {
@@ -18,7 +20,8 @@ class App extends StatelessWidget {
       title: 'Introduction screen',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const OnBoardingPage(),
+      //home: const OnBoardingPage(),
+      home: const RegisterClubScreen(),
     );
   }
 }
